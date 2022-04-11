@@ -1,0 +1,67 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <!-- Knight-Rowley_Emillie_S1802083 -->
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/salutation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Welcome to Emillie Knight-Rowley's Mobile Platform Development Assignment 2021-2022!"/>
+
+        <Button
+            android:id="@+id/getDataButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Press to get data"/>
+
+        <TextView
+            android:id="@+id/acknowledgement"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="This app sources road disruption data from Traffic Scotland."/>
+
+        <TextView
+            android:id="@+id/rawDataDisplay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="After you've Pressed to get Data - choose how you'd like to view below!"/>
+
+        <Button
+            android:id="@+id/gotoGetAllDisruptions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="View All Disruptions"/>
+
+        <Button
+            android:id="@+id/gotoFilterByDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Search Disruptions by Date"/>
+
+        <Button
+            android:id="@+id/gotoSearchDisruptions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Search Disruptions by Road"/>
+
+        <Button
+            android:id="@+id/gotoJourneyPlanner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Journey Planner"/>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

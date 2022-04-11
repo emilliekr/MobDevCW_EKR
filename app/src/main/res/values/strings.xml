@@ -1,0 +1,6 @@
+<resources>
+    <!-- Knight-Rowley_Emillie_S1802083 -->
+    <string name="app_name">Emillie Knight-Rowley S1802083</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
